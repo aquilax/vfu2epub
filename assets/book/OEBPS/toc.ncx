@@ -20,17 +20,73 @@
   </docAuthor>
  
   <navMap>
-    <navPoint class="chapter" id="issue3" playOrder="1">
+    <navPoint class="chapter" id="issue1" playOrder="1">
       <navLabel><text>Брой 1</text></navLabel>
       <content src="VFU.001.utf8.txt.xhtml"/>
     </navPoint>
-      <navPoint class="chapter" id="issue3" playOrder="1">
+      <navPoint class="chapter" id="issue2" playOrder="2">
       <navLabel><text>Брой 2</text></navLabel>
       <content src="VFU.002.utf8.txt.xhtml"/>
     </navPoint>
-    <navPoint class="chapter" id="issue3" playOrder="1">
+    <navPoint class="chapter" id="issue3" playOrder="3">
       <navLabel><text>Брой 3</text></navLabel>
       <content src="VFU.003.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue4" playOrder="4">
+      <navLabel><text>Брой 4</text></navLabel>
+      <content src="VFU.004.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue5" playOrder="5">
+      <navLabel><text>Брой 5</text></navLabel>
+      <content src="VFU.005.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue6" playOrder="6">
+      <navLabel><text>Брой 6</text></navLabel>
+      <content src="VFU.006.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue7" playOrder="7">
+      <navLabel><text>Брой 7</text></navLabel>
+      <content src="VFU.007.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue8" playOrder="8">
+      <navLabel><text>Брой 8</text></navLabel>
+      <content src="VFU.008.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue9" playOrder="9">
+      <navLabel><text>Брой 9</text></navLabel>
+      <content src="VFU.009.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue10" playOrder="10">
+      <navLabel><text>Брой 10</text></navLabel>
+      <content src="VFU.0010.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue11" playOrder="11">
+      <navLabel><text>Брой 11</text></navLabel>
+      <content src="VFU.0011.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue12" playOrder="12">
+      <navLabel><text>Брой 12</text></navLabel>
+      <content src="VFU.0012.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue13" playOrder="13">
+      <navLabel><text>Брой 13</text></navLabel>
+      <content src="VFU.0013.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue14" playOrder="14">
+      <navLabel><text>Брой 14</text></navLabel>
+      <content src="VFU.0014.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue15" playOrder="15">
+      <navLabel><text>Брой 15</text></navLabel>
+      <content src="VFU.0015.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue16" playOrder="16">
+      <navLabel><text>Брой 16</text></navLabel>
+      <content src="VFU.0016.utf8.txt.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="issue17" playOrder="17">
+      <navLabel><text>Брой 17</text></navLabel>
+      <content src="VFU.017.utf8.txt.xhtml"/>
     </navPoint>
   </navMap>
  

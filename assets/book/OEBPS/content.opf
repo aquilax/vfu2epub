@@ -12,6 +12,20 @@
     <item id="issue1" href="VFU.001.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
     <item id="issue2" href="VFU.002.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
     <item id="issue3" href="VFU.003.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue4" href="VFU.004.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue5" href="VFU.005.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue6" href="VFU.006.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue7" href="VFU.007.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue8" href="VFU.008.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue9" href="VFU.009.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue10" href="VFU.010.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue11" href="VFU.011.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue12" href="VFU.012.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue13" href="VFU.013.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue14" href="VFU.014.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue15" href="VFU.015.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue16" href="VFU.016.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
+    <item id="issue17" href="VFU.017.utf8.txt.xhtml" media-type="application/xhtml+xml"/>
     <item id="stylesheet" href="style.css" media-type="text/css"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -20,6 +34,20 @@
     <itemref idref="issue1" />
     <itemref idref="issue2" />
     <itemref idref="issue3" />
+    <itemref idref="issue4" />
+    <itemref idref="issue5" />
+    <itemref idref="issue6" />
+    <itemref idref="issue7" />
+    <itemref idref="issue8" />
+    <itemref idref="issue9" />
+    <itemref idref="issue10" />
+    <itemref idref="issue11" />
+    <itemref idref="issue12" />
+    <itemref idref="issue13" />
+    <itemref idref="issue14" />
+    <itemref idref="issue15" />
+    <itemref idref="issue16" />
+    <itemref idref="issue17" />
   </spine>
  
 </package>

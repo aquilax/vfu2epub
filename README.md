@@ -9,4 +9,12 @@ VFU2Epub
 
 	$bash vfu2epub.sh /path/to/allvfu.zip
 
+Зависимости:
+
+* zip/unzip
+* iconv
+* sed
+* tidy
+* bash
+
 Скриптът е грозен и без никакви проверки но върши работа.

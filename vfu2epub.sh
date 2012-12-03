@@ -1,16 +1,25 @@
-#!/bin/sh
+#!/bin/bash
 
 # unzip the archive
-unzip -o $1 -d ./out
+unzip -o $1 -d ./temp
 
 # unzip the archives
-for z in ./out/vfu0*.zip; do unzip -o $z  -d ./out; done
+for z in ./temp/vfu0*.zip; do unzip -o $z  -d ./temp; done
 
 # convert to utf8
-for z in ./out/VFU.0*; do iconv -f MIK -t utf8 $z -o $z.utf8.txt; done
+for z in ./temp/VFU.0*; do iconv -f MIK -t utf8 $z -o $z.utf8.txt; done
 
 # create HTML
-for z in ./out/*.utf8.txt; do sed "9r $z" ./assets/template.html > $z.xhtml; done
+for z in ./temp/*.utf8.txt; do sed "9r $z" ./assets/template.html > $z.xhtml; done
+
+# combine the files with the book template
+cp -r ./assets/book ./temp
+cp ./temp/*.xhtml ./temp/book/OEBPS/
+
+# create the epub
+pushd temp/book
+zip -r ../../out/virus_for_us.epub *
+popd
 
 # clean afterwards
-rm ./out/*
+rm -r ./temp/*

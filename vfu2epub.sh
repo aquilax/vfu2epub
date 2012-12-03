@@ -10,7 +10,7 @@ for z in ./temp/vfu0*.zip; do unzip -o $z  -d ./temp; done
 for z in ./temp/VFU.0*; do iconv -f MIK -t utf8 $z -o $z.utf8.txt; done
 
 # create HTML
-for z in ./temp/*.utf8.txt; do sed "9r $z" ./assets/template.html > $z.xhtml; done
+for z in ./temp/*.utf8.txt; do sed "10r $z" ./assets/template.html | tidy -utf8 --force-output true >  $z.xhtml; done
 
 # combine the files with the book template
 cp -r ./assets/book ./temp
